@@ -1,5 +1,9 @@
 # stac-index-catalogs
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/stac-index-catalogs/blob/master/stac_catalogs.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/stac-index-catalogs/HEAD?labpath=stac_catalogs.ipynb)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Introduction
 
 The [STAC Index](https://stacindex.org/) website hosts a lot of geospatial datasets with a [SpatioTemporal Asset Catalog (STAC)](https://stacspec.org/) endpoint. This repo compiles the list of the STAC endpoints as a CSV file, making it easier to find and use geospatial datasets programmatically. The list is updated daily.
