@@ -10,15 +10,15 @@ A complete list of all STAC endpoints as a JSON file is available [here](https:/
 
 This repo provides the list of STAC endpoints in two formats:
 
-- Tab separated values (TSV) file: [stac_catalogs.tsv](https://github.com/giswqs/stac-catalogs/blob/master/tac_catalogs.tsv)
-- JSON file: [stac_catalogs.json](https://github.com/giswqs/stac-catalogs/blob/master/stac_catalogs.json)
+- Tab separated values (TSV) file: [stac_catalogs.tsv](https://github.com/giswqs/stac-index-catalogs/blob/master/stac_catalogs.tsv)
+- JSON file: [stac_catalogs.json](https://github.com/giswqs/stac-index-catalogs/blob/master/stac_catalogs.json)
 
 The TSV file can be easily read into a Pandas DataFrame using the following code:
 
 ```python
 import pandas as pd
 
-url = 'https://github.com/giswqs/stac-catalogs/raw/master/stac_catalogs.tsv'
+url = 'https://github.com/giswqs/stac-index-catalogs/raw/master/stac_catalogs.tsv'
 df = pd.read_csv(url, sep='\t')
 df.head()
 ```
