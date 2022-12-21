@@ -1,4 +1,4 @@
-name: aws_catalog
+name: stac_catalog
 on:
   workflow_dispatch:
   schedule:
