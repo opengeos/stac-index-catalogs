@@ -19,4 +19,6 @@ df = df.sort_values(by="title")
 df.set_index("title", inplace=True)
 df.reset_index(inplace=True)
 df.to_csv("stac_catalogs.tsv", index=False, sep="\t")
-df.to_json("stac_catalogs.json", orient="records", indent=4)
+
+with open("stac_catalogs.json", "w") as f:
+    json.dump(df.to_dict("records"), f, indent=4)
