@@ -1274,6 +1274,19 @@
         "accessInfo": null
     },
     {
+        "title": "PSL / Mines Paris / OIE | STAC Catalog | Renewable energy datasets ",
+        "id": 190,
+        "url": "https://stac.webservice-energy.org/api/",
+        "slug": "oie-stac-catalog",
+        "summary": "A searchable catalog of renewable energy and environmental datasets, maintained by the Observation, Impacts, Energy (O.I.E.) center at MINES Paris \u2014 PSL / ARMINES. The integrated STAC (SpatioTemporal Asset Catalog) API, which follows the open STAC specification, enables users to access detailed asset-level metadata, including spatial coverage, temporal extent, and data specifications. This standardized interface facilitates efficient discovery and retrieval of solar radiation, in-situ measurement, and other renewable energy and environmental resources.",
+        "access": "public",
+        "created": "2026-10-08T09:59:00.084Z",
+        "updated": "2026-10-08T09:59:00.084Z",
+        "isPrivate": false,
+        "isApi": true,
+        "accessInfo": null
+    },
+    {
         "title": "Paituli STAC (Finland)",
         "id": 72,
         "url": "https://paituli.csc.fi/geoserver/ogc/stac/v1",
