@@ -1274,6 +1274,19 @@
         "accessInfo": null
     },
     {
+        "title": "PDOK APIs and services",
+        "id": 193,
+        "url": "https://bertt.github.io/pdok-stac/catalog.json",
+        "slug": "pdok-apis-and-services",
+        "summary": "STAC catalog of all PDOK APIs listed in https://api.pdok.nl/index.json, with WMS/WFS/WMTS/WCS/ATOM services from https://www.pdok.nl/datasets (generated on 2026-10-14T07:52:55Z).",
+        "access": "public",
+        "created": "2026-10-14T20:20:02.073Z",
+        "updated": "2026-10-14T20:20:02.073Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "PGC Data Catalog",
         "id": 184,
         "url": "https://stac.pgc.umn.edu/api/v1/",
