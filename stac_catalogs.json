@@ -1313,6 +1313,19 @@
         "accessInfo": null
     },
     {
+        "title": "PSUP Data",
+        "id": 194,
+        "url": "http://idoc-stac.ias.u-psud.fr/",
+        "slug": "psup-data",
+        "summary": "This beta STAC catalog contains Mars data collections and sub-catalogs currently hosted and distributed by PSUP (Planetary SUrface Portal).",
+        "access": "private",
+        "created": "2026-10-16T08:58:48.107Z",
+        "updated": "2026-10-16T08:58:48.107Z",
+        "isPrivate": true,
+        "isApi": false,
+        "accessInfo": "The catalog is still in beta from now on, but it already contains some metadata. Note that the downloadable data is still not yes accessible."
+    },
+    {
         "title": "Paituli STAC (Finland)",
         "id": 72,
         "url": "https://paituli.csc.fi/geoserver/ogc/stac/v1",
